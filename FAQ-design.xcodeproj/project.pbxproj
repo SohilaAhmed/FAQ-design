@@ -16,7 +16,7 @@
 		7B9A260B2A1DECF8001774AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9A260A2A1DECF8001774AA /* Home.storyboard */; };
 		7B9A260E2A1DFA70001774AA /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A260D2A1DFA70001774AA /* HomeTableViewCell.swift */; };
 		7B9A26112A1DFB4C001774AA /* Home+TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A26102A1DFB4C001774AA /* Home+TableDelegate.swift */; };
-		7B9A26132A1E102F001774AA /* ReloadProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A26122A1E102F001774AA /* ReloadProtocol.swift */; };
+		7B9A26152A1E4A7B001774AA /* FAQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A26142A1E4A7B001774AA /* FAQTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		7B9A260A2A1DECF8001774AA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		7B9A260D2A1DFA70001774AA /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		7B9A26102A1DFB4C001774AA /* Home+TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableDelegate.swift"; sourceTree = "<group>"; };
-		7B9A26122A1E102F001774AA /* ReloadProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadProtocol.swift; sourceTree = "<group>"; };
+		7B9A26142A1E4A7B001774AA /* FAQTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,6 @@
 				7B9A260C2A1DF9E7001774AA /* Cell */,
 				7B9A25F62A1DEBF3001774AA /* HomeViewController.swift */,
 				7B9A26102A1DFB4C001774AA /* Home+TableDelegate.swift */,
-				7B9A26122A1E102F001774AA /* ReloadProtocol.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -115,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				7B9A260D2A1DFA70001774AA /* HomeTableViewCell.swift */,
+				7B9A26142A1E4A7B001774AA /* FAQTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 			files = (
 				7B9A25F72A1DEBF3001774AA /* HomeViewController.swift in Sources */,
 				7B9A25F32A1DEBF3001774AA /* AppDelegate.swift in Sources */,
+				7B9A26152A1E4A7B001774AA /* FAQTableViewCell.swift in Sources */,
 				7B9A26112A1DFB4C001774AA /* Home+TableDelegate.swift in Sources */,
 				7B9A260E2A1DFA70001774AA /* HomeTableViewCell.swift in Sources */,
-				7B9A26132A1E102F001774AA /* ReloadProtocol.swift in Sources */,
 				7B9A25F52A1DEBF3001774AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,35 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="coI-XR-D7x">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="coI-XR-D7x">
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" red="0.078431372549019607" green="0.58823529411764708" blue="0.80784313725490198" alpha="0.89803921568627454" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeTableViewCell" rowHeight="160" id="gAK-uS-KoQ" customClass="HomeTableViewCell" customModule="FAQ_design" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="160"/>
+                                        <rect key="frame" x="20" y="55.333332061767578" width="353" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gAK-uS-KoQ" id="ROz-hi-aBN">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="160"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="353" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfC-PY-3f3">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="160"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="353" height="160"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQe-ac-brR">
-                                                            <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="353" height="72.666666666666671"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q1: Where is bioLAB Located?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CpX-GM-7ec">
-                                                                    <rect key="frame" x="10" y="5" width="333" height="31"/>
+                                                                    <rect key="frame" x="10" y="5" width="293" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="0h7-AK-hry"/>
-                                                                        <constraint firstAttribute="width" constant="333" id="P3c-VC-AuZ"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                                     <color key="textColor" red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <color key="highlightedColor" red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
                                                                 </label>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSY-Nj-a9b">
-                                                                    <rect key="frame" x="359" y="5" width="24" height="28"/>
+                                                                    <rect key="frame" x="319" y="5" width="24" height="28"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="28" id="7lU-jr-AgG"/>
                                                                         <constraint firstAttribute="width" constant="24" id="wr6-jT-Y44"/>
@@ -68,13 +68,12 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OkG-nu-U4v">
-                                                            <rect key="frame" x="0.0" y="63" width="393" height="97"/>
+                                                            <rect key="frame" x="0.0" y="73.666666666666686" width="353" height="86.333333333333314"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BioLAB has two branches, one in AlReaya Medical Gate Center at Salmaniya, and the other is in Budayia Medical Center at Muqsha." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRc-rY-wkx">
-                                                                    <rect key="frame" x="10" y="0.0" width="343" height="92"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="303" height="81.333333333333329"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="width" constant="343" id="Nnm-CC-iVZ"/>
-                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="89" id="SIG-U2-E77"/>
+                                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="81.329999999999998" id="v4y-Vm-Rca"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
@@ -83,10 +82,10 @@
                                                             </subviews>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="97" id="AOa-q5-c7G"/>
-                                                                <constraint firstAttribute="bottom" secondItem="FRc-rY-wkx" secondAttribute="bottom" constant="5" id="Fcu-Kg-GH5"/>
-                                                                <constraint firstItem="FRc-rY-wkx" firstAttribute="top" secondItem="OkG-nu-U4v" secondAttribute="top" id="Qgx-Kr-l7u"/>
-                                                                <constraint firstItem="FRc-rY-wkx" firstAttribute="leading" secondItem="OkG-nu-U4v" secondAttribute="leading" constant="10" id="nrp-Ub-mEg"/>
+                                                                <constraint firstItem="FRc-rY-wkx" firstAttribute="top" secondItem="OkG-nu-U4v" secondAttribute="top" id="CMf-GZ-hcB"/>
+                                                                <constraint firstItem="FRc-rY-wkx" firstAttribute="leading" secondItem="OkG-nu-U4v" secondAttribute="leading" constant="10" id="Hxg-hw-q4b"/>
+                                                                <constraint firstAttribute="bottom" secondItem="FRc-rY-wkx" secondAttribute="bottom" constant="5" id="TFM-18-P3z"/>
+                                                                <constraint firstAttribute="trailing" secondItem="FRc-rY-wkx" secondAttribute="trailing" constant="40" id="i88-0z-x5O"/>
                                                             </constraints>
                                                         </view>
                                                     </subviews>
@@ -112,6 +111,58 @@
                                         <connections>
                                             <outlet property="answerView" destination="OkG-nu-U4v" id="oIN-4c-SDF"/>
                                             <outlet property="showAnswerBtnOutlet" destination="KSY-Nj-a9b" id="8y9-Fg-3af"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FAQTableViewCell" rowHeight="100" id="Rfs-yF-50b" customClass="FAQTableViewCell" customModule="FAQ_design" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="215.33333206176758" width="353" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rfs-yF-50b" id="d64-Xb-i0B">
+                                            <rect key="frame" x="0.0" y="0.0" width="353" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hya-s1-uE0">
+                                                    <rect key="frame" x="319" y="10" width="24" height="28"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="28" id="6Lh-j8-oiT"/>
+                                                        <constraint firstAttribute="width" constant="24" id="Zrc-Re-TCg"/>
+                                                    </constraints>
+                                                    <color key="tintColor" red="0.078431372550000003" green="0.58823529409999997" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="chevron.down" catalog="system"/>
+                                                    <connections>
+                                                        <action selector="buttonPressed:" destination="Rfs-yF-50b" eventType="touchUpInside" id="zyY-Jw-wqY"/>
+                                                    </connections>
+                                                </button>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zva-od-qNR">
+                                                    <rect key="frame" x="10" y="10" width="299" height="80"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Q1: Where is bioLAB Located?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3U-OG-WyR">
+                                                            <rect key="frame" x="0.0" y="0.0" width="299" height="20.333333333333332"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="BioLAB has two branches, one in AlReaya Medical Gate Center at Salmaniya, and the other is in Budayia Medical Center at Muqsha." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfh-XF-8F9">
+                                                            <rect key="frame" x="0.0" y="28.333333333333339" width="299" height="51.666666666666657"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hya-s1-uE0" firstAttribute="leading" secondItem="zva-od-qNR" secondAttribute="trailing" constant="10" id="77X-kd-wY4"/>
+                                                <constraint firstItem="zva-od-qNR" firstAttribute="top" secondItem="d64-Xb-i0B" secondAttribute="top" constant="10" id="KQr-Kk-hlh"/>
+                                                <constraint firstAttribute="bottom" secondItem="zva-od-qNR" secondAttribute="bottom" constant="10" id="Q9e-8w-yeo"/>
+                                                <constraint firstItem="hya-s1-uE0" firstAttribute="top" secondItem="d64-Xb-i0B" secondAttribute="top" constant="10" id="QZm-Em-z4a"/>
+                                                <constraint firstAttribute="trailing" secondItem="hya-s1-uE0" secondAttribute="trailing" constant="10" id="fA1-fm-0zN"/>
+                                                <constraint firstItem="zva-od-qNR" firstAttribute="leading" secondItem="d64-Xb-i0B" secondAttribute="leading" constant="10" id="ijY-20-CcK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="aLabel" destination="tfh-XF-8F9" id="LFK-Ck-Gs0"/>
+                                            <outlet property="qLabel" destination="k3U-OG-WyR" id="jmd-jp-9i4"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
